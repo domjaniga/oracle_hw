@@ -1,4 +1,4 @@
-function print_string(num) {
+function get_result(num) {
     let result = "";
 
     if (num % 2 == 0) {
@@ -17,5 +17,5 @@ function print_string(num) {
 }
 
 for (let num = 1; num < 100; num++) {
-    console.log(print_string(num));
+    console.log(get_result(num));
 }
